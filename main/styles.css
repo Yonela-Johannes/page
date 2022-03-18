@@ -255,29 +255,45 @@ p.par{
 }
 .row-one{
     grid-area: rowOne;
+    display: flex;
+    justify-content: space-around;
 }
-.col-onw{
+.col-one{
     grid-area: colOne;
+    display: flex;
+    justify-content: space-around;
 }
 .row-two{
     grid-area: rowTwo;
+    display: flex;
+    justify-content: space-around;
 }
 .col-two{
     grid-area: colTwo;
+    display: flex;
+    justify-content: space-around;
 }
 .row-three{
     grid-area: rowThree;
+    display: flex;
+    justify-content: space-around;
 }
 .col-three{
     grid-area: colThree;
+    display: flex;
+    justify-content: space-around;
 }
 
 .row-Four{
     grid-area: rowFour;
+    display: flex;
+    justify-content: space-around;
 }
 
 .col-Four{
     grid-area: colFour;
+    display: flex;
+    justify-content: space-around;
 }
 /* footer */
 footer{
