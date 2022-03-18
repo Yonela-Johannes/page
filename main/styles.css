@@ -145,7 +145,6 @@ p.logo .surname {
                         'rowThree colThree'
                         'rowFour colFour'
     ;
-    align-items: center;
     text-align: center;
     justify-content: center;
 }
@@ -463,4 +462,9 @@ margin-bottom: 5px;
         text-align: center;
         margin-bottom: 5px;
     }
+}
+
+.subtitle p{
+    width: 300px;
+    margin-bottom: 5px;
 }
