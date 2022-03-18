@@ -11,14 +11,6 @@
     background-color: red;
 } */
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
-}
 
 .middle-container{
     display: flex;
@@ -105,7 +97,7 @@ p.logo .surname {
 .image-container {
     margin: 10px;
 }
-.image-container img {
+.image-container {
     width: 180px;
     height: 150px;
     object-fit: cover;
