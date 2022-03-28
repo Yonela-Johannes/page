@@ -506,7 +506,7 @@ img.codex{
     border: .1px solid rgb(116, 116, 116);
 }
     .something-table tr td, .something-table tr th{
-        width: 100px;
+        max-width: 150px;
         padding: 5px;
         text-align: center;
     }
