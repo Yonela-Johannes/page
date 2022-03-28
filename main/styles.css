@@ -407,6 +407,9 @@ img.codex{
     align-items: center;
     justify-content: center;
 }
+.buttonsContainer {
+    display: flex;
+}
 .buttons {
     padding: 10px;
 }

@@ -89,7 +89,14 @@ p {
 .justify {
   text-align: justify;
 }
-
+table {
+  border-collapse: collapse;
+}
+tr, td, th, table{
+  padding: 5px;
+  text-align: center;
+  border: 0.3px solid black;
+}
 /* ==== GRID SYSTEM ==== */
 
 .container {
