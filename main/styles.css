@@ -14,13 +14,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-color: rgb(255, 255, 255);
 }
 
@@ -29,7 +30,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 90%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     background-color: rgb(255, 255, 255);
     margin-top: 30px;
 }
@@ -387,22 +388,13 @@ img.codex{
         font-weight: bold;
         color: rgb(14, 14, 14)
     }
-    
-    /* Grid Container */
-.grid {
-    cursor: pointer;
-    display: grid;
-    /* border: 1px solid black; */
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'header header'
-                        'rowOne colOne'
-                        'rowTwo colTwo'
-                        'rowThree colThree'
-                        'rowFour colFour'
-    ;
-    text-align: center;
-    justify-content: center;
+        .something-table tr td, .something-table tr th{
+        max-width: 200px;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
     }
+    
 }   
 
 /* Landing page */
@@ -475,7 +467,7 @@ img.codex{
     }
     .middle-container{
         width: 100%;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
         background-color: rgb(255, 255, 255);
         margin-top: 30px;
     }
@@ -504,7 +496,7 @@ img.codex{
     }
     .gap {
     border: .1px solid rgb(116, 116, 116);
-}
+    }
     .something-table tr td, .something-table tr th{
         max-width: 150px;
         padding: 5px;
