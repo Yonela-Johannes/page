@@ -124,8 +124,8 @@ img.image-container{
 .middle-container {
     display: flex;
     justify-content: center;
-    /* background-color: red; */
-    align-items: center;
+
+    /* align-items: center; */
 }
 .mid-container {
     margin: 10px 0;
@@ -140,11 +140,11 @@ img.image-container{
 }
 .mid-container h4 {
     font-size: 22px;
-    margin: 20px 0 10px 0;
+    margin: 0 0 10px 10px;
 }
 .mid-image{
     float: left;
-    padding: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
 }
 .subtitle{
     align-self: flex-start;
@@ -166,11 +166,11 @@ p.bio {
     padding: 5px;
 }
 .bottomImage{
-    width: 200px;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     padding: 10px;
-    float: left;
+    float: right;
 }
 .sub {
     align-self: center;
@@ -183,8 +183,6 @@ p.bio {
 }
 .one{
     max-width: 700px;
-    padding: 15px;
-    text-justify: auto;
 }
 
 .one,.two p{
@@ -203,9 +201,11 @@ p.bio {
 
 .bottom-wrapper {
     border-right: 1px solid rgb(199, 199, 199);
-    text-align: center;
+    text-align: flex-start;
+    margin-right: 10px;
 }
 .bottom-wrapper h4 {
+    font-size: 20px;
     margin-bottom: 7px;
     border-bottom:.3px solid rgb(206, 206, 206) ;
     padding-bottom: 10px;
@@ -483,7 +483,7 @@ p.project {
         margin-bottom: 5px;
     }
     .reverse {
-        float: right;
+        float: left;
     }
 }
 
@@ -491,7 +491,7 @@ p.project {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 p.subtitle {
     max-width: 400px;
@@ -507,7 +507,8 @@ p.subtitle {
 
 .something-table tr td, .something-table tr th{
     height: 40px;
-    width: 485px;
+    width: 500px;
+    max-width: 600px;
     padding: 5px;
     text-align: center;
 }
