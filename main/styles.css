@@ -124,23 +124,19 @@ img.image-container{
 .middle-container {
     display: flex;
     justify-content: center;
-
-    /* align-items: center; */
 }
 .mid-container {
     margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items:  flex-start;
-    justify-content: center;
     text-align: flex-start;
 }
 .mid{
     display: flex;
 }
 .mid-container h4 {
-    font-size: 22px;
-    margin: 0 0 10px 10px;
+    font-size: 15px;
 }
 .mid-image{
     float: left;
@@ -292,6 +288,7 @@ img.codex{
     p.subtitle{
         max-width: 100px;
     }
+
     .bottom-container-wrapper{
         flex-direction: column;
     }
@@ -490,12 +487,12 @@ p.project {
 .something {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: flex-start;
     justify-content: flex-start;
 }
 p.subtitle {
-    max-width: 400px;
-    margin: 5px auto 20px auto;
+    max-width: 700px;
+    margin-bottom: 10px;
 }
 
 
@@ -533,4 +530,11 @@ p.subtitle {
     .reversed {
         float: right;
     }
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
