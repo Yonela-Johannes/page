@@ -124,13 +124,14 @@ img.image-container{
 .middle-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .mid-container {
     margin: 10px 0;
     display: flex;
     flex-direction: column;
-    align-items:  flex-start;
-    text-align: flex-start;
+    /* align-items:  center; */
+    /* text-align: center; */
 }
 .mid{
     display: flex;
@@ -165,6 +166,10 @@ p.bio {
     max-width: 700px;
     padding: 5px;
 }
+
+.content-wrapper p {
+    max-width: 330px;
+}
 .bottomImage{
     width: 150px;
     height: 150px;
@@ -196,13 +201,12 @@ p.bio {
     display: flex;
     flex-direction: row;
     align-items:  center;
+    text-align: center;
     justify-content: space-around;
 }
 
 .bottom-wrapper {
     border-right: 1px solid rgb(199, 199, 199);
-    text-align: flex-start;
-    margin-right: 10px;
 }
 .bottom-wrapper h4 {
     font-size: 20px;
@@ -212,7 +216,7 @@ p.bio {
 }
 .bottom-content{
     border-radius: 15px;
-    padding: 10px;
+    padding: 5px;
 }
 .bottom-container-wrapper{
     display: flex;
@@ -227,7 +231,6 @@ p.bio {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 5px;
     margin: 20px 0 50px 0; 
 }
 
@@ -306,7 +309,7 @@ img.codex{
         height: 150px;
     }
     .content-wrapper p {
-        max-width: 400px;
+        /* max-width: 400px; */
     }
     .reverse {
         float: left;
@@ -508,7 +511,7 @@ p.subtitle {
 
 .something-table tr td, .something-table tr th{
     height: 40px;
-    width: 500px;
+    /* width: 500px; */
     max-width: 600px;
     padding: 5px;
     text-align: center;
@@ -542,4 +545,8 @@ p.subtitle {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.historical-places {
+    margin-top: 20px;
 }
