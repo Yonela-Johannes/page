@@ -162,7 +162,8 @@ p.bio {
     color: gray;
 }
 .content-wrapper{
-    width: 300px;
+    max-width: 700px;
+    padding: 5px;
 }
 .bottomImage{
     width: 200px;
@@ -296,9 +297,15 @@ img.codex{
         padding: 10px;
         margin: 10px 0;
     }
+    .bottomImage{
+        max-width: 320px;
+        height: 150px;
+    }
+    .content-wrapper p {
+        max-width: 400px;
+    }
     .reverse {
-        display: flex;
-        flex-direction: row-reverse;
+        float: left;
     }
     .footer{
         display: flex;
