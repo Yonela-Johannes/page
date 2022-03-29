@@ -268,7 +268,12 @@ img.codex{
     .middle-container {
         width: 100%;
         align-items: center;
-    }    ul.navlist {
+
+    }
+    .mid-container {
+        align-items: center;
+    }    
+    ul.navlist {
         display: none;
     }
     .top-container {
@@ -279,6 +284,9 @@ img.codex{
         flex-direction: column;
         padding: 5px 0;
         border-bottom: .3px solid gray;
+    }
+    p.subtitle{
+        max-width: 100px;
     }
     .bottom-container-wrapper{
         flex-direction: column;
@@ -314,7 +322,7 @@ img.codex{
         color: rgb(14, 14, 14)
     }
         .something-table tr td, .something-table tr th{
-        max-width: 200px;
+        max-width: 340px;
         padding: 5px;
         margin: 10px;
         text-align: center;
@@ -404,6 +412,8 @@ p.project {
         padding: 5px;
     }
     .middle-container{
+        align-items: center;
+        justify-content: center;
         width: 100%;
         overflow-x: hidden;
         background-color: rgb(255, 255, 255);
@@ -411,6 +421,7 @@ p.project {
     }
     .mid-container{
         width: 500px;
+        text-align: center;
         align-items: center;
         justify-content: center;
         margin: 0;
