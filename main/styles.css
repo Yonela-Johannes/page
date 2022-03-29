@@ -135,6 +135,10 @@ img.image-container{
 .mid{
     display: flex;
 }
+.mid-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 .mid-container h4 {
     font-size: 15px;
 }
