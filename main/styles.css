@@ -330,18 +330,28 @@ img.codex{
     padding-top: 100px;
     align-items: center;
     justify-content: center;
+    background-color: rgb(241, 211, 176);
 }
 .buttonsContainer {
     display: flex;
 }
 .buttons {
     padding: 10px;
+    text-align: center;
 }
+
 .button {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
     list-style: none;
 
 }
 
+p.project {
+    color: rgb(79, 79, 79);
+    font-size: 18px;
+    font-weight: bold;
+}
 .button li {
     margin: 30px;
 }
@@ -362,9 +372,6 @@ img.codex{
     background-color:  rgb(221, 221, 221);
 }
 
-.landing-top-container {
-    height: 40vh
-}
 
 /* Landing main container */
 .main-container {
@@ -377,6 +384,9 @@ img.codex{
     .top-container h3 {
         font-size: 18px;
 
+    }
+    .buttonsContainer {
+        flex-direction: column;
     }
     .mid {
         flex-direction: column;
