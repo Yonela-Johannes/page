@@ -263,6 +263,9 @@ img.codex{
 /* Media Query */
 
 @media only screen and (max-width: 1000px){
+    nav{
+        position: absolute;
+    }
     .all-wrapper{
         width: 100%;
     }
