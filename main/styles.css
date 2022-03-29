@@ -490,3 +490,25 @@ p.subtitle {
     padding: 5px;
     text-align: center;
 }
+
+/* For small viewports */
+
+
+@media only screen and (max-width: 450px){
+    p.subtitle {
+        width: 160px;
+    }
+
+    .something-table tr td, .something-table tr th{
+        max-width: 130px;
+        text-align: center;
+    }
+
+    .reverse {
+        float: left;
+    }
+
+    .reversed {
+        float: right;
+    }
+}
