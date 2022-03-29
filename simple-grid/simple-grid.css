@@ -89,9 +89,11 @@ p {
 .justify {
   text-align: justify;
 }
+
 table {
   border-collapse: collapse;
 }
+
 tr, td, th, table{
   padding: 5px;
   text-align: center;

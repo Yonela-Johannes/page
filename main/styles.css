@@ -120,6 +120,13 @@ img.image-container{
     height: 150px;
     object-fit: cover;
 }
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    align-items: center;
+}
 .mid-container {
     margin: 10px 0;
     display: flex;
@@ -174,8 +181,9 @@ p.bio {
     padding: 10px;;
 }
 .one{
-    max-width: 400px;
-    padding: 10px;
+    max-width: 700px;
+    padding: 15px;
+    text-justify: auto;
 }
 
 .one,.two p{
@@ -221,92 +229,8 @@ p.bio {
     padding: 5px;
     margin: 20px 0 50px 0; 
 }
-.grid-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-}
 
-.gap {
-    border: .3px solid rgb(116, 116, 116);
-}
 
-.grid {
-    /* width: 970px; */
-    cursor: pointer;
-    display: grid;
-    background-color: rgb(202, 202, 202);
-    border: 1px solid black;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'header header'
-                        'rowOne colOne'
-                        'rowTwo colTwo'
-                        'rowThree colThree'
-                        'rowFour colFour'
-    ;
-    text-align: center;
-    justify-content: center;
-}
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding:10px;
-    grid-area: header;
-    background-color: gray;
-}
-.row-one{
-    grid-area: rowOne;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.col-one{
-    grid-area: colOne;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.row-two{
-    grid-area: rowTwo;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.col-two{
-    grid-area: colTwo;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.row-three{
-    grid-area: rowThree;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.col-three{
-    grid-area: colThree;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.row-four{
-    grid-area: rowFour;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.col-four{
-    grid-area: colFour;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /* footer */
 footer{
     border-top: .3px solid rgb(192, 192, 192);
@@ -532,9 +456,15 @@ img.codex{
     }
 }
 
-.subtitle {
-    width: 300px;
-    margin-bottom: 20px;
+.something {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+p.subtitle {
+    max-width: 400px;
+    margin: 5px auto 20px auto;
 }
 
 
