@@ -517,13 +517,14 @@ p.subtitle {
 /* For small viewports */
 
 
-@media only screen and (max-width: 450px){
-    p.subtitle {
-        width: 160px;
-    }
+@media only screen and (max-width: 500px){
 
+    p.subtitle{
+        max-width: 290px;
+        margin: 10px auto;
+    }
     .something-table tr td, .something-table tr th{
-        max-width: 130px;
+        max-width: 180px;
         text-align: center;
     }
 
