@@ -29,7 +29,7 @@
 .middle-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 90%;
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
@@ -131,7 +131,7 @@ img.image-container{
     display: flex;
     flex-direction: column;
     /* align-items:  center; */
-    /* text-align: center; */
+    text-align: center;
 }
 .mid{
     display: flex;
@@ -140,7 +140,7 @@ img.image-container{
     font-size: 20px;
     margin-bottom: 10px;
 }
-.mid-container h4 {
+.something h4 {
     font-size: 15px;
 }
 .mid-image{
@@ -148,8 +148,8 @@ img.image-container{
     margin: 0 20px 10px 0;
 }
 .subtitle{
-    align-self: flex-start;
-    justify-self: flex-start;
+    align-self: center;
+    justify-self: center;
 }
 .top-container-wrapper {
     display: flex;
