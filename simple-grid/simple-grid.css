@@ -57,7 +57,6 @@ p {
   font-weight: 200;
   line-height: 1.8;
 }
-
 .font-light {
   font-weight: 300;
 }
@@ -99,10 +98,18 @@ tr, td, th, table{
   text-align: center;
   border: 0.3px solid black;
 }
+
+.text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 3;
+  -webkit-line-clam: 3;
+  -webkit-box-orient: vertical
+}
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,9 +199,25 @@ tr, td, th, table{
   display: none;
 }
 
+.display-image {
+  max-width: 400px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.favourite-city-image{
+  max-width: 400px;
+  max-height: 250px;
+}
+
+.historical-city-image{
+  max-width: 200px;
+  max-height: 250px;
+  object-fit: cover;
+}
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -212,7 +235,7 @@ tr, td, th, table{
   }
 
   .col-4 {
-    width: 29.33%;
+    width: 26.33%;
   }
 
   .col-5 {

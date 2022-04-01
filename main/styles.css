@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
 }
 
-
+.center {
+    width: ;
+}
 .all-wrapper {
     width: 100%;
     display: flex;
