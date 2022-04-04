@@ -16,15 +16,11 @@ nav{
     z-index: 99999;
 }
 
-/* .wrapper {
-    border: .3px solid gray;
-} */
+.historical-city-image {
+    float: left;
+    width: 150px;
+}
 
-/* .row-wrapper {
-    border-bottom: .3px solid gray;
-    border-left: .3px solid gray;
-    border-right: .3px solid gray;
-} */
 
 .vertical-line {
     border-right: .3px solid gray;
